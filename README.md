@@ -1,4 +1,4 @@
-<div align="center'>
+<div align="center">
   <h1>🎟️ Automated Decentralized Raffle Application</h1>
   <p><b>A high-performance, secure, and fully autonomous lottery smart contract powered by Chainlink VRF v2.5 and Chainlink Automation</b></p>
 </div>
