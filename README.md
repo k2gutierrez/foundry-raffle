@@ -156,4 +156,4 @@ forge coverage
 ```
 
 📜 Contract Address
-# Provide your deployed contract addresses below upon testnet/mainnet deployment:
+- Provide your deployed contract addresses below upon testnet/mainnet deployment:
