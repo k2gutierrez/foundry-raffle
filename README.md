@@ -28,7 +28,7 @@ The system operates via an automated state loop: **Open**, **Calculating**, and 
 3. **Randomness Request:** When upkeep is due, the automated node calls `performUpkeep()`. The contract flips its internal state to `CALCULATING` to lock further entries, and issues an asynchronous request to the Chainlink VRF Coordinator.
 4. **Fulfillment & Payout:** The VRF Coordinator returns a verifiably random word to the contract's internal callback `fulfillRandomWords()`. The contract maps this number against the player pool via a modulo operation, securely transfers the entire native contract balance to the selected winner, resets the player pool, and updates the state back to `OPEN`.
 
-![Project Architecture](./images/diagram.png)
+![Project Raffle Diagram](./images/diagram.png)
 
 ---
 
